@@ -3,6 +3,7 @@ import requests
 import json
 from datahelper import PlayerData
 from datahelper import LegendIds
+from datahelper import LegendData
 
 class App:
     def __init__(self, title, width, height):
@@ -17,7 +18,7 @@ class App:
 
         self.playerData = PlayerData()
 
-        self.rawStatsJson = {}
+        self.rawStatsDict = {}
 
 
     def addWidgets(self):
@@ -43,6 +44,7 @@ class App:
     def start(self):
         #self.getNewStatsJsonFileFromApi()
         self.loadNewStatsFromFile()
+        self.processRawStatsDictToLegendsData()
 
         self.window.mainloop()
 
@@ -58,5 +60,17 @@ class App:
         file = open("stats.json", "r")
         stats = file.read()
     
-        self.rawStatsJson = json.loads(stats)
+        self.rawStatsDict = json.loads(stats)
+
+    def processRawStatsDictToLegendsData(self):
+        for legendData in self.playerData.legendsData:
+            for child in self.rawStatsDict['data']['children']:
+                if legendData.legendId.value == child['id']:
+                    legendData.name = child['metadata']['legend_name']
+                    for stat in child['stats']:
+                        if stat['metadata']['key'] == "Kills":
+                            legendData.kills = stat['value']           
+
+
+
 

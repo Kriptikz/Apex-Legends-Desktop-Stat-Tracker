@@ -13,9 +13,9 @@ class LegendIds(Enum):
 
 
 class LegendData:
-    def __init__(self, legendId, name):
+    def __init__(self, legendId):
         self.legendId = legendId
-        self.name = name
+        self.name = ""
         self.kills = 0  
 
 
@@ -25,18 +25,13 @@ class PlayerData:
 
         self.legendsData = []
 
-        self.legendsData.append(LegendData(LegendIds.WRAITH, "Wraith"))
-        self.legendsData.append(LegendData(LegendIds.BANGALORE, "Bangalore"))
-        self.legendsData.append(LegendData(LegendIds.CAUSTIC, "Caustic"))
-        self.legendsData.append(LegendData(LegendIds.MIRAGE, "Mirage"))
-        self.legendsData.append(LegendData(LegendIds.BLOODHOUND, "Bloodhound"))
-        self.legendsData.append(LegendData(LegendIds.GIBRALTAR, "Gibraltar"))
-        self.legendsData.append(LegendData(LegendIds.LIFELINE, "Lifeline"))
-        self.legendsData.append(LegendData(LegendIds.PATHFINDER, "Pathfinder"))
+        self.legendsData.append(LegendData(LegendIds.WRAITH))
+        self.legendsData.append(LegendData(LegendIds.BANGALORE))
+        self.legendsData.append(LegendData(LegendIds.CAUSTIC))
+        self.legendsData.append(LegendData(LegendIds.MIRAGE))
+        self.legendsData.append(LegendData(LegendIds.BLOODHOUND))
+        self.legendsData.append(LegendData(LegendIds.GIBRALTAR))
+        self.legendsData.append(LegendData(LegendIds.LIFELINE))
+        self.legendsData.append(LegendData(LegendIds.PATHFINDER))
 
-    def updateLegendKills(self, legendId, newKills):
-        for legend in self.legendsData:
-            if legend.legendId == legendId:
-                legend.kills = newKills
 
-    #def updateAllData(self, newData):
