@@ -1,0 +1,356 @@
+{
+  "data": {
+    "id": "1ea1eda1-ab00-4f89-a2e3-034a5fe1be21",
+    "type": "player",
+    "children": [
+      {
+        "id": "legend_5",
+        "type": "",
+        "metadata": {
+          "legend_name": "Bloodhound",
+          "icon": "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-bloodhound.png.adapt.crop16x9.png",
+          "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-concept-bg-small.jpg"
+        },
+        "stats": [
+          {
+            "metadata": {
+              "key": "Kills",
+              "name": "Kills",
+              "categoryKey": "combat",
+              "categoryName": "Combat",
+              "isReversed": false
+            },
+            "value": 1600.0,
+            "percentile": 0.6,
+            "rank": 832,
+            "displayValue": "1,600",
+            "displayRank": "832"
+          },
+          {
+            "metadata": {
+              "key": "KillsPerMatch",
+              "name": "Kills Per Match",
+              "categoryKey": "combat",
+              "categoryName": "Combat",
+              "isReversed": false
+            },
+            "value": 1.68,
+            "percentile": 1.9,
+            "displayValue": "1.68",
+            "displayRank": ""
+          },
+          {
+            "metadata": {
+              "key": "DamagePerMatch",
+              "name": "Damage Per Match",
+              "categoryKey": "combat",
+              "categoryName": "Combat",
+              "isReversed": false
+            },
+            "value": 438.16,
+            "percentile": 1.0,
+            "displayValue": "438.16",
+            "displayRank": ""
+          },
+          {
+            "metadata": {
+              "key": "Damage",
+              "name": "Damage",
+              "categoryKey": "combat",
+              "categoryName": "Combat",
+              "isReversed": false
+            },
+            "value": 418002.0,
+            "percentile": 0.4,
+            "displayValue": "418,002",
+            "displayRank": ""
+          },
+          {
+            "metadata": {
+              "key": "MatchesPlayed",
+              "name": "Matches Played",
+              "categoryKey": "game",
+              "categoryName": "Game",
+              "isReversed": false
+            },
+            "value": 954.0,
+            "percentile": 0.1,
+            "displayValue": "954",
+            "displayRank": ""
+          },
+          {
+            "metadata": {
+              "key": "Revives",
+              "name": "Revives",
+              "categoryKey": "game",
+              "categoryName": "Game",
+              "isReversed": false
+            },
+            "value": 298.0,
+            "percentile": 0.1,
+            "rank": 3,
+            "displayValue": "298",
+            "displayRank": "3"
+          },
+          {
+            "metadata": {
+              "key": "Specific1",
+              "name": "Legend Specific 1",
+              "categoryKey": "game",
+              "categoryName": "Game",
+              "isReversed": false
+            },
+            "value": 163.0,
+            "percentile": 0.3,
+            "rank": 368,
+            "displayValue": "163",
+            "displayRank": "368"
+          },
+          {
+            "metadata": {
+              "key": "Specific2",
+              "name": "Legend Specific 2",
+              "categoryKey": "game",
+              "categoryName": "Game",
+              "isReversed": false
+            },
+            "value": 224.0,
+            "percentile": 0.5,
+            "rank": 1181,
+            "displayValue": "224",
+            "displayRank": "1,181"
+          }
+        ]
+      },
+      {
+        "id": "legend_8",
+        "type": "",
+        "metadata": {
+          "legend_name": "Pathfinder",
+          "icon": "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-pathfinder.png.adapt.crop16x9.png",
+          "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/pathfinder-concept-bg-small.jpg"
+        },
+        "stats": [
+          {
+            "metadata": {
+              "key": "Kills",
+              "name": "Kills",
+              "categoryKey": "combat",
+              "categoryName": "Combat",
+              "isReversed": false
+            },
+            "value": 40.0,
+            "percentile": 32.0,
+            "rank": 26520,
+            "displayValue": "40",
+            "displayRank": "26,520"
+          }
+        ]
+      },
+      {
+        "id": "legend_1",
+        "type": "",
+        "metadata": {
+          "legend_name": "Wraith",
+          "icon": "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-wraith.png.adapt.crop16x9.png",
+          "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/wraith-concept-bg-small.jpg"
+        },
+        "stats": [
+          {
+            "metadata": {
+              "key": "Kills",
+              "name": "Kills",
+              "categoryKey": "combat",
+              "categoryName": "Combat",
+              "isReversed": false
+            },
+            "value": 16.0,
+            "percentile": 76.0,
+            "displayValue": "16",
+            "displayRank": ""
+          }
+        ]
+      },
+      {
+        "id": "legend_4",
+        "type": "",
+        "metadata": {
+          "legend_name": "Mirage",
+          "icon": "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-mirage.png.adapt.crop16x9.png",
+          "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/mirage-concept-bg-small.jpg"
+        },
+        "stats": [
+          {
+            "metadata": {
+              "key": "Kills",
+              "name": "Kills",
+              "categoryKey": "combat",
+              "categoryName": "Combat",
+              "isReversed": false
+            },
+            "value": 54.0,
+            "percentile": 50.0,
+            "rank": 33661,
+            "displayValue": "54",
+            "displayRank": "33,661"
+          }
+        ]
+      },
+      {
+        "id": "legend_7",
+        "type": "",
+        "metadata": {
+          "legend_name": "Lifeline",
+          "icon": "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-lifeline.png.adapt.crop16x9.png",
+          "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/lifeline-concept-bg-small.jpg"
+        },
+        "stats": [
+          {
+            "metadata": {
+              "key": "Kills",
+              "name": "Kills",
+              "categoryKey": "combat",
+              "categoryName": "Combat",
+              "isReversed": false
+            },
+            "value": 24.0,
+            "percentile": 66.0,
+            "displayValue": "24",
+            "displayRank": ""
+          }
+        ]
+      },
+      {
+        "id": "legend_6",
+        "type": "",
+        "metadata": {
+          "legend_name": "Gibraltar",
+          "icon": "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-gibraltar.png.adapt.crop16x9.png",
+          "bgimage": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-concept-bg-small.jpg"
+        },
+        "stats": [
+          {
+            "metadata": {
+              "key": "Kills",
+              "name": "Kills",
+              "categoryKey": "combat",
+              "categoryName": "Combat",
+              "isReversed": false
+            },
+            "value": 6.0,
+            "percentile": 51.0,
+            "rank": 15613,
+            "displayValue": "6",
+            "displayRank": "15,613"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "statsCategoryOrder": [
+        "combat",
+        "game",
+        "weapons"
+      ],
+      "platformId": 5,
+      "platformUserHandle": "KriptikzX",
+      "accountId": "1ea1eda1-ab00-4f89-a2e3-034a5fe1be21",
+      "cacheExpireDate": "3/10/2019 3:30:11 PM",
+      "level": 131
+    },
+    "stats": [
+      {
+        "metadata": {
+          "key": "Level",
+          "name": "Level",
+          "categoryKey": "combat",
+          "categoryName": "Combat",
+          "isReversed": false
+        },
+        "value": 131.0,
+        "percentile": 1.3,
+        "displayValue": "131",
+        "displayRank": ""
+      },
+      {
+        "metadata": {
+          "key": "Kills",
+          "name": "Kills",
+          "categoryKey": "combat",
+          "categoryName": "Combat",
+          "isReversed": false
+        },
+        "value": 1740.0,
+        "percentile": 2.2,
+        "rank": 13609,
+        "displayValue": "1,740",
+        "displayRank": "13,609"
+      },
+      {
+        "metadata": {
+          "key": "KillsPerMatch",
+          "name": "Kills Per Match",
+          "categoryKey": "combat",
+          "categoryName": "Combat",
+          "isReversed": false
+        },
+        "value": 1.82,
+        "percentile": 4.9,
+        "displayValue": "1.82",
+        "displayRank": ""
+      },
+      {
+        "metadata": {
+          "key": "DamagePerMatch",
+          "name": "Damage Per Match",
+          "categoryKey": "combat",
+          "categoryName": "Combat",
+          "isReversed": false
+        },
+        "value": 438.16,
+        "percentile": 3.3,
+        "displayValue": "438.16",
+        "displayRank": ""
+      },
+      {
+        "metadata": {
+          "key": "Damage",
+          "name": "Damage",
+          "categoryKey": "combat",
+          "categoryName": "Combat",
+          "isReversed": false
+        },
+        "value": 418002.0,
+        "percentile": 1.5,
+        "displayValue": "418,002",
+        "displayRank": ""
+      },
+      {
+        "metadata": {
+          "key": "MatchesPlayed",
+          "name": "Matches Played",
+          "categoryKey": "game",
+          "categoryName": "Game",
+          "isReversed": false
+        },
+        "value": 954.0,
+        "percentile": 0.1,
+        "displayValue": "954",
+        "displayRank": ""
+      },
+      {
+        "metadata": {
+          "key": "Revives",
+          "name": "Revives",
+          "categoryKey": "game",
+          "categoryName": "Game",
+          "isReversed": false
+        },
+        "value": 298.0,
+        "percentile": 0.1,
+        "displayValue": "298",
+        "displayRank": ""
+      }
+    ]
+  }
+}
