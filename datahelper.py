@@ -22,6 +22,7 @@ class LegendData:
 class PlayerData:
     def __init__(self):
         self.level = 1
+        self.totalKills = 0
 
         self.legendsData = []
 

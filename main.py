@@ -17,7 +17,7 @@ def main():
     '''
 
     windowTitle = "Apex Legends Stat Tracker"
-    windowWidth = 700
+    windowWidth = 830
     windowHeight = 400
 
     # Create our application
