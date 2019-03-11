@@ -27,7 +27,7 @@ class App:
 
         self.loadAuthenticationData()
 
-        #self.getNewStatsJsonFileFromApi()
+        self.getNewStatsJsonFileFromApi()
         self.loadNewStatsFromFile()
         self.processRawStatsDictToPlayerData()
 
